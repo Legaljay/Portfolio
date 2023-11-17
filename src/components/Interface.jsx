@@ -247,7 +247,7 @@ const socialLinks = [
     icon: <AiOutlineInstagram className="group-hover:text-white w-4 h-5" />,
   },
   {
-    path: "https://www.linkedin.com/ayobami-adesina-56aa6299",
+    path: "https://www.linkedin.com/in/ayobami-adesina-56aa6299/",
     icon: <RiLinkedinFill className="group-hover:text-white w-4 h-5" />,
   },
 ];
@@ -296,7 +296,7 @@ const ContactSection = () => {
           </button>
         </form>
       </div>
-      <footer className="self-center mt-2 mb-3">
+      <footer className="self-center mt-2 mb-5">
         <div className="">
           <div className="flex justify-between flex-col md:flex-row flex-wrap gap-[30px]">
             <div className="flex flex-col justify-center items-center">
