@@ -296,7 +296,7 @@ const ContactSection = () => {
           </button>
         </form>
       </div>
-      <footer className="self-center mt-5">
+      <footer className="self-center mt-2 mb-3">
         <div className="">
           <div className="flex justify-between flex-col md:flex-row flex-wrap gap-[30px]">
             <div className="flex flex-col justify-center items-center">
