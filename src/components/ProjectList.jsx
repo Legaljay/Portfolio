@@ -47,9 +47,9 @@ const images = [
 
 const ProjectList = () => {
   return (
-    <div className='flex flex-wrap gap-2 w-[80%] mb-5'>
+    <div className='flex flex-wrap gap-2 w-full md:w-[80%] mb-5'>
         {images.map((image) => (
-            <a key={image.img} href={image.link} className='w-[40%]'><img key={image.img} src={image.img} alt={image.alt} /></a>
+            <a key={image.img} href={image.link} className='w-[48.5%] md:w-[40%]'><img key={image.img} src={image.img} alt={image.alt} /></a>
         ))}
     </div>
   )
